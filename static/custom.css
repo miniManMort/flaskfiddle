@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+  font-size: 14px;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input {
+    border-radius: 4px;
+}
+
