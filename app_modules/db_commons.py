@@ -13,6 +13,7 @@ app_db = PostgresqlDatabase(
 field_map = {
     "AUTO":"SERIAL",
     "BIGAUTO":"BIGSERIAL",
+    "INT":"INTEGER",
     "INTEGER":"INTEGER",
     "BIGINTEGER":"BIGINT",
     "SMALLINTEGER":"SMALLINT",

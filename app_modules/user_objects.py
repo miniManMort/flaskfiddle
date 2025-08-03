@@ -25,7 +25,7 @@ class Role (BaseAppObject):
 
 class UserRole (BaseAppObject):
     user_id = ForeignKeyField(User)
-    user_role = ForeignKeyField(Role)
+    role_id = ForeignKeyField(Role)
     assignment_date = DateField()
 
 #
